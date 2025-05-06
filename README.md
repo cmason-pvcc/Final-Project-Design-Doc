@@ -16,7 +16,7 @@ Design Process:
   
 Requirements:  
   Board Size / Play Area:  
-    • The game should be played on a window containing at least a 10-by-10 tile set.
+    • The game should be played on a window containing at least a 10-by-10 tile set.  
         Requirement met.  
     • Dots should be in all valid tiles for the Pac-man to be (no dots should be in walls or outside the boundaries).  
         Requirement met.  
@@ -26,22 +26,24 @@ Requirements:
     • The player should control the direction using the arrow keys.  
         Requirement met, with the addition that WASD can be used as a substitute control scheme.  
     • There should be a path to the outside of the screen, and the Pac-man should be able to travel from one side to the other.  
-        Requirement not met, the ability to travel to the other side has not yet been implemented.  
+        Requirement met.  
   Food Generation:  
     • Food should appear randomly on the game screen after some random number of seconds.  
-        Requirement not met.  
+        Requirement met.  
   Collision Detection:  
     • Pac-man's score increases when running into a dot or fruit  
-        Requirement not met  
+        Requirement met  
     • The dot disappears.  
-        Requirement not met.  
+        Requirement met.  
     • The fruit disappears and the timer for the next fruit to spawn begins.  
-        Requirement not met.  
+        Requirement met.  
   Game Over and Score:  
     • Display a Game Over message when all dots are collected.  
-        Requirement not met.  
+        Requirement not met, but it does display a game over screen.  
     • Display the player's score, which is based on how much food and dots the Pac-man has collected.  
-        Requirement not met.  
+        Requirement met.  
   Restart Option:  
     • There should be an option to replay the game after a game over.  
-        Requirement not met.
+        Requirement met.  
+    
+![FinalProjectFlowchart drawio](https://github.com/user-attachments/assets/dc6d4b21-5e8e-4462-b01a-9579b24df844)
